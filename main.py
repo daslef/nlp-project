@@ -13,7 +13,7 @@ def load(path: str, encoding: str = "utf-8") -> str:
 
 
 def tokenize(text: str) -> list[str]:
-    return re.findall(r"\w{2,}", text)
+    return re.findall(r"\w{3,}", text)
 
 
 if __name__ == "__main__":
