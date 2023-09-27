@@ -1,8 +1,8 @@
 import re
 
 from counter import count_words__counter
-from stopwords import without_stopwords
 from morph import get_nouns, normalize
+from stopwords import without_stopwords
 
 
 def load(path: str, encoding: str = "utf-8") -> str:
